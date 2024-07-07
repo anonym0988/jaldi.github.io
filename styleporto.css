@@ -1,0 +1,254 @@
+/* BODY */
+body {
+    background-image: url(pinterest1.jpg);
+}
+/* BODY END */
+/* HOME */
+nav {
+    text-align: center;
+    padding: 25px;
+    font-size: large;
+    
+}
+
+.HOME {
+    padding: 15px;
+    font-size: 25px;
+    color: aliceblue;
+    transition: all 500ms;
+}
+.ABOUT {
+    padding: 15px;
+    font-size: 25px;
+    color: aliceblue;
+    transition: all 500ms;
+}
+.BLOG {
+    padding: 15px;
+    font-size: 25px;
+    color: aliceblue;
+    transition: all 500ms;
+}
+.CONTACT {
+    padding: 15px;
+    font-size: 25px;
+    color: aliceblue;
+    transition: all 500ms;
+}
+
+.Divperkenalan {
+    background-color: rgba(128, 128, 128, 0.379);
+    font-size: large;
+    height: 35vh;
+    position: relative;
+    top: 150px;
+    padding-left: 10px;
+    }
+    .p1perkenalan {
+        color: aliceblue;
+        font-size: 20px;
+        padding: 20px;
+    }
+/* HOME END */
+
+
+
+/* ABOUT */
+.Divaboutme {
+    background-color: rgba(128, 128, 128, 0.379);
+    font-size: large;
+    height: 35vh;
+    position: relative;
+    top: 500px;
+    
+}
+
+.typing {
+    color: aliceblue;
+    position: relative;
+    left: 10px;
+}
+
+
+/* ABOUT END */
+
+
+
+/* BLOG */
+.Divblog {
+    background-color: rgba(128, 128, 128, 0.379);
+    font-size: large;
+    height: 35vh;
+    position: relative;
+    top: 1000px;
+}
+.p1blog {
+color: aliceblue;
+    font-size: 20px;
+}
+/* BLOG END */
+
+
+
+/* CONTACT */
+.Divcontact {
+    background-color: rgba(128, 128, 128, 0.379);
+    font-size: large;
+    height: 35vh;
+    position: relative;
+    top: 1500px;
+}
+
+.p1contact {
+    color: aliceblue;
+    font-size: 20px;
+}
+/* CONTACT ME */
+
+
+
+
+/* HOVER */
+.HOME:hover {
+color: blueviolet;
+}
+.ABOUT:hover {
+    color: blueviolet;
+}
+.BLOG:hover {
+    color: blueviolet;
+}
+.CONTACT:hover {
+    color: blueviolet;
+}
+.cardhard:hover {
+    box-shadow: inset 200px #f9e506;
+    color: blueviolet;
+    scale: 1.2;
+}
+/* HOVER END */
+
+
+
+
+
+/* SECTION */
+.homesection {
+    position: relative;
+    bottom: 100px;
+}
+
+.aboutsection {
+    position: relative;
+    bottom: 100px;
+}
+
+.blogsection {
+    position: relative;
+    bottom: 100px;
+}
+
+.contactsection {
+    position: relative;
+    bottom: 100px;
+}
+/* SECTION END */
+
+
+
+
+/* BUTTON */
+.cardhard {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 200px;
+height: 200px;
+border: none;
+outline: none;
+border-radius: 100px;
+position: relative;
+left: 20px;
+bottom: 38px;
+background: white;
+text-align: center;
+
+cursor: pointer;
+box-shadow: inset 0 0 0 0 #f9e506;
+transition: ease-out 0.6s;
+
+}
+
+.pcardhard {
+    position: relative;
+    top: 90px;
+    font-size: large;
+    font-size: 20px;
+}
+
+.cardsoft {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+width: 200px;
+height: 200px;
+border: none;
+outline: none;
+border-radius: 100px;
+position: relative;
+left: 20px;
+bottom: 222px;
+background: white;
+text-align: center;
+
+cursor: pointer;
+box-shadow: inset 0 0 0 0 #f9e506;
+transition: ease-out 0.6s;
+}
+.pcardsoft {
+    position: relative;
+    top: 90px;
+    font-size: large;
+    font-size: 20px;
+}
+
+.cardsoft:hover {
+    box-shadow: inset 200px #f9e506;
+    color: blueviolet;
+    scale: 1.2;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+.p1cardhard {
+    position: relative;
+    left: 250px;
+    opacity: 0;
+}
+
+.cardhard:hover .p1cardhard {
+    opacity: 1;
+    transition: 0.7s;
+    translate: 2rem;
+    color: aliceblue;
+}
+
+.Divaboutme2 {
+    background-color: rgba(128, 128, 128, 0.379);
+    font-size: large;
+    height: 35vh;
+    position: relative;
+}
+
+.p1cardsoft {
+    position: relative;
+    left: 250px;
+    opacity: 0;
+}
+
+.cardsoft:hover .p1cardsoft {
+    opacity: 1;
+    transition: 0.7s;
+    translate: 2rem;
+    color: aliceblue;
+}
+/* BUTTON END */
